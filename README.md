@@ -1,6 +1,6 @@
 ## Hi there 👋, 
 # 💫 About Me: 
-💻 I'm a Full-stack developer passionate about building scalable ⚡, user-focused 👥 applications 📱 and exploring AI-driven 🤖 solutions. <br>
+💻 I'm a Full-stack developer passionate about building scalable ⚡, user-focused 👥 applications and exploring AI-driven 🤖 solutions. <br>
 🔭 I’m currently working on building innovative web applications that solve real-world problems.  <br>🤝 I’m looking to collaborate on intuitive, impactful, and user-friendly projects.  <br>🌱 I’m currently learning Machine Learning & AI to integrate intelligent features into my applications.  <br>💬 Ask me about full-stack development, UI/UX design, or turning an idea into a real product.  <br>⚡ I consider the “dark mode vs. light mode” debate a serious life decision.<br>
 
 
