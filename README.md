@@ -47,8 +47,9 @@
 ### 🎮 My GitHub Green Squares Game
 <div align="center">
 
-![GitHub Game of Life](https://github.com/lealem07/lealem07/blob/main/github-user-contribution.svg)
+![GitHub Snake](https://raw.githubusercontent.com/lealem07/lealem07/main/dist/github-contribution-grid-snake.svg)
 
 </div>
 
 [![](https://visitcount.itsvg.in/api?id=lealem07&icon=0&color=3)](https://visitcount.itsvg.in)
+
