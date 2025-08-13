@@ -8,26 +8,19 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
       - uses: Platane/snk@v3
         with:
           github_user_name: lealem07
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#00ff00&color_dots=#444444&color_food=#ff0000&background=#000000
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00ff00&color_dots=#444444&color_food=#ff0000&background=#000000
-
+          outputs: dist/github-contribution-grid-snake.svg
       - name: Push changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: "Generate Snake Game (dark theme)"
-          add: "dist/*.svg"
+          message: "Generate Snake Game"
+          add: "dist/github-contribution-grid-snake.svg"
