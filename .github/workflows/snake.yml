@@ -2,24 +2,34 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"         # Run every day at midnight UTC
+  workflow_dispatch:            # Allow manual trigger
   push:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Checkout repo
       - uses: actions/checkout@v3
+
+      # Step 2: Generate the snake game
       - uses: Platane/snk@v3
         with:
           github_user_name: lealem07
           outputs: dist/github-contribution-grid-snake.svg
+          color_snake: "#39d353" # Snake color (GitHub green)
+          color_dots: "#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"
+          # 0 commits → dark background (#161b22)
+          # Low → #0e4429
+          # Medium → #006d32
+          # High → #26a641
+          # Very High → #39d353
+
+      # Step 3: Push the generated file to the repo
       - name: Push changes
         uses: EndBug/add-and-commit@v9
         with:
