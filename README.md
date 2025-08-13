@@ -47,7 +47,7 @@
 ### 🎮 My GitHub Green Squares Game
 <div align="center">
 
-![GitHub Snake](https://raw.githubusercontent.com/lealem07/lealem07/main/dist/github-contribution-grid-snake.svg)
+![GitHub Snake Light](https://github.com/lealem07/lealem07/blob/main/dist/github-contribution-grid-snake.svg)
 
 </div>
 
